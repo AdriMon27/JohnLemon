@@ -460,6 +460,7 @@ GameObject:
   - component: {fileID: 440567723205983931}
   - component: {fileID: 8641893020134617108}
   - component: {fileID: 3115450705932168705}
+  - component: {fileID: 1834204083}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -564,13 +565,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5718779548352103740}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffae87b1068a7ce4693e75168edb89fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 440567723205983931}
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!82 &3115450705932168705
 AudioSource:
   m_ObjectHideFlags: 0
@@ -667,6 +670,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1834204083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5718779548352103740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e217ee4497dd3c34f8364599b0c6c199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAgent: {fileID: 440567723205983931}
+  player: {fileID: 0}
 --- !u!1 &5718779548352103742
 GameObject:
   m_ObjectHideFlags: 0
