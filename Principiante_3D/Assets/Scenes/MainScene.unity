@@ -5476,6 +5476,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JohnLemon
       objectReference: {fileID: 0}
+    - target: {fileID: 2113853905765549636, guid: f07c5090e76ff3b49964990cffc2b787,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2113853905765784164, guid: f07c5090e76ff3b49964990cffc2b787,
         type: 3}
       propertyPath: m_RootOrder
